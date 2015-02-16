@@ -1,0 +1,173 @@
+body
+{
+	background: #ddd url("img/back.jpg") repeat 0 0;
+	-moz-background-size: 100%;           /* Firefox 3.6 */
+	-webkit-background-size: 100%;           /* Safari 3.0, Chrome */
+	background-size: 100%;           /* w3c, Firefox 4.0, ie9  */
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+}
+
+a:link { color: #B52C07; }
+a:visited { color: #b93411; }
+a:focus { color: #000; }
+a:hover { color: #7d8206; }
+a:active { color: red; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+
+h2
+{
+	color: #B52C07;
+	font: 140% georgia, times, "times new roman", serif;
+}
+
+h2 a { text-decoration: none; }
+
+h3
+{
+	color: #7d8206;
+	font: 110% georgia, times, "times new roman", serif;
+}
+
+/* ------------------------------
+container styles
+------------------------------ */
+
+#container
+{
+	margin: 1em auto;
+	width: 70%;
+	text-align: left;
+	background: #fff;
+	border: 1px solid #676767;
+}
+
+/* ------------------------------
+header styles
+------------------------------ */
+
+#header
+{
+	height: 200px;
+	width: 100%;
+	position: relative;
+	background: url(img/header.jpg) no-repeat 0 0;
+	border-bottom: 1px solid #fff;
+}
+
+#header h1
+{
+	position: absolute;
+	left: -500em;
+}
+
+#skipmenu
+{
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: right;
+}
+
+#skipmenu a
+{
+	color: #555;
+	text-decoration: none;
+}
+
+/* ------------------------------
+mainnav styles
+------------------------------ */
+
+#mainnav
+{
+	background: #D86C00;
+	color: #272900;
+	padding: 20px 0;
+	margin-bottom: 22px;
+}
+
+#mainnav ul
+{
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+}
+
+#mainnav li
+{
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #C4C769;
+}
+
+#mainnav li a
+{
+	text-decoration: none;
+	color: #272900;
+}
+
+#mainnav li a:hover
+{
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+}
+
+
+
+/* ------------------------------
+contents styles
+------------------------------ */
+
+#contents
+{
+	width: 100%;
+	margin: 20px;
+}
+
+#contents p { line-height: 165%; }
+.blogentry { }
+
+.blogentry ul
+{
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+}
+
+.blogentry li
+{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+}
+
+.imagefloat
+{
+	float: right;
+	padding: 2px;
+	border: 1px solid #D86C00;
+	margin: 0 0 10px 10px;
+}
+
+/* ------------------------------
+footer styles
+------------------------------ */
+
+#footer
+{
+	clear: both;
+	color: #272900;
+	text-align: right;
+	font-size: 90%;
+	background: #D86C00;
+	padding: 10px;
+}
